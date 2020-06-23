@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "react-scripts build",
+    "build": "react-scripts CI",
     "start": "react-scripts start"
   },
   "keywords": [],
