@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "concurrently \"npm install\" \"npm run start\"",
+    "build": "react-scripts build",
     "start": "react-scripts start"
   },
   "keywords": [],
