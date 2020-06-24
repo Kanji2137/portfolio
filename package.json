@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "react-scripts CI",
-    "start": "react-scripts start"
+    "start": "react-scripts start",
+    "build2": "react-scripts build",
+    "build": "concurrently \"npm install\" \"npm run start\""
   },
   "keywords": [],
   "author": "Samuel Zabczynski",

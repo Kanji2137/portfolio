@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0fb05083.chunk.css",
+    "main.js": "/static/js/main.f643b194.chunk.js",
+    "main.js.map": "/static/js/main.f643b194.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
+    "runtime-main.js.map": "/static/js/runtime-main.19ccc7f6.js.map",
+    "static/js/2.e33d2518.chunk.js": "/static/js/2.e33d2518.chunk.js",
+    "static/js/2.e33d2518.chunk.js.map": "/static/js/2.e33d2518.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.94012a3c46fb73897311d8318fd57662.js": "/precache-manifest.94012a3c46fb73897311d8318fd57662.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.0fb05083.chunk.css.map": "/static/css/main.0fb05083.chunk.css.map",
+    "static/js/2.e33d2518.chunk.js.LICENSE.txt": "/static/js/2.e33d2518.chunk.js.LICENSE.txt",
+    "static/media/blender_logo_socket2.png": "/static/media/blender_logo_socket2.7f2b4edd.png",
+    "static/media/first1.png": "/static/media/first1.9a632002.png",
+    "static/media/fourth.png": "/static/media/fourth.d85c7d70.png",
+    "static/media/legoBoy1.png": "/static/media/legoBoy1.a482678a.png",
+    "static/media/legoGuyGif2.gif": "/static/media/legoGuyGif2.35cfc61f.gif",
+    "static/media/myInspirations.png": "/static/media/myInspirations.219aa327.png",
+    "static/media/myportfolio.png": "/static/media/myportfolio.bfb9b93d.png",
+    "static/media/second1.png": "/static/media/second1.d04513b8.png",
+    "static/media/third.png": "/static/media/third.cca65ceb.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.19ccc7f6.js",
+    "static/js/2.e33d2518.chunk.js",
+    "static/css/main.0fb05083.chunk.css",
+    "static/js/main.f643b194.chunk.js"
+  ]
+}
