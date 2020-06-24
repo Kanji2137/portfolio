@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "react-scripts start",
-    "build2": "react-scripts build",
-    "build": "concurrently \"npm install\" \"npm run start\""
+    "build": "concurrently \"npm install\" \"npm run build\" \"npm run start\""
   },
   "keywords": [],
   "author": "Samuel Zabczynski",
