@@ -11,6 +11,8 @@ import {
   import Home from './Home'
   import Contact from './Contact'
 
+  import projectsL  from '../data/MiniListOfProjectsL';
+  import projectsR  from '../data/MiniListOfProjectsR';
 class NavBar extends Component {
 
     render() {
@@ -35,7 +37,7 @@ class NavBar extends Component {
                         <Contact />
                     </Route>
                     <Route path="/">
-                        <Home />
+                        <Home projectsL={projectsL} projectsR={projectsR}/>
                     </Route>
                 </Switch>
             </div>

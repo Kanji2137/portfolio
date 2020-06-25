@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 
 import { Link } from "react-scroll";
 
@@ -12,8 +13,6 @@ import fourthFace from '../img/avatar/fourth.png';
 import ProjectsMini from './miniComponents/ProjectsMini'
 
 import ListOfProjects from './miniComponents/ListOfProjects'
-import projectsL  from '../data/MiniListOfProjectsL';
-import projectsR  from '../data/MiniListOfProjectsR';
 
 import Foot from './miniComponents/Foot';
 
@@ -55,11 +54,16 @@ class Home extends Component {
                     
                 </div>
                 <ProjectsMini/>
-                <ListOfProjects projectsL={projectsL} projectsR={projectsR}/>
+                <ListOfProjects projectsL={this.props.projectsL} projectsR={this.props.projectsR}/>
                 <Foot/>
             </div>
         );
     }
 }
+
+Home.propTypes = {
+    projectsL: PropTypes.array.isRequired,
+    projectsR: PropTypes.array.isRequired
+};
 
 export default Home;

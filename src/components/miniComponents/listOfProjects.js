@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
+
 
 class ListOfProjects extends Component {
     render() {
@@ -35,10 +35,5 @@ class ListOfProjects extends Component {
             );
     }
 }
-
-ListOfProjects.propTypes = {
-    projectsL: PropTypes.array.isRequired,
-    projectsR: PropTypes.array.isRequired
-};
 
 export default ListOfProjects; 
