@@ -11,7 +11,7 @@ class ListOfProjects extends Component {
                                 return (
                                     <div key={id} className="boxMiniProjectR"  id={project.id}> 
                                         <div className="imgToMiniListR">
-                                            <a href={project.link} target="_blank"><img src={project.imgOfProject} className="imgToMiniList2"  alt="myWebsite"/></a>
+                                            <a href={project.link} target="_blank"><img src={project.imgOfProject} className="imgToMiniList2"/></a>
                                         </div>
                                         <div className="textUnderImgList" style={{color:project.color}}>{project.NameOfProject}</div>
                                     </div>
@@ -21,9 +21,9 @@ class ListOfProjects extends Component {
                         <div className="listRight">
                             {this.props.projectsR.map((project, id) => {
                                 return (
-                                    <div key={id} className="boxMiniProjectR"  id={project.id}> 
+                                    <div key={id} className="boxMiniProjectR" id={project.id}> 
                                         <div className="imgToMiniListR">
-                                        <a href={project.link} target="_blank"><img src={project.imgOfProject} className="imgToMiniList2"  alt="portfolio"/></a>
+                                        <a href={project.link} target="_blank"><img src={project.imgOfProject} className="imgToMiniList2" /></a>
                                         </div>
                                         <div className="textUnderImgList" style={{color:project.color}}>{project.NameOfProject}</div>
                                     </div>
