@@ -1,0 +1,100 @@
+
+.sizelistOfProjects{
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    padding-top: 100px;
+}
+
+.containerForLists{
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.listLeft{
+    float: left;
+    width: 50%;   
+}
+.listRight{
+    float: left;
+    width: 50%;
+    margin-top: 320px;
+}
+
+.boxMiniProjectL{
+    width: 600px;
+    border-radius: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: all 0.35s ease 0s;
+}
+.boxMiniProjectL:hover{
+    transform: translate(0,-4px);
+}
+.boxMiniProjectR{
+    width: 600px;
+    border-radius: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: all 0.35s ease 0s;
+}
+.boxMiniProjectR:hover{
+    transform: translate(0,-4px);
+}
+.imgToMiniListR{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+}
+.imgToMiniList{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+}
+
+.imgToMiniList2{
+    margin-top: 30px;
+    width: 100%;
+    border-radius: 25px;
+}
+
+.textUnderImgList{
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0 0 25px 25px;
+    width: 88%;
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+}
+@media only screen and (max-width: 1150px) {
+    .listLeft{
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    }
+    .listRight{
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 75px;
+        width: 80%;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .listLeft{
+        width: 100%;
+    }
+    .listRight{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 730px) {
+    .sizelistOfProjects {
+        margin-top: 0;
+    }
+}

@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import '../App.css';
 import Headroom from "react-headroom";
 
 import {
@@ -9,10 +8,10 @@ import {
     Link
 } from "react-router-dom";
   
-  import Home from './home'
-  import Contact from './contact'
+  import Home from './Home'
+  import Contact from './Contact'
 
-class navBar extends Component {
+class NavBar extends Component {
 
     render() {
       return (
@@ -45,4 +44,4 @@ class navBar extends Component {
     }
 }
 
-export default navBar; 
+export default NavBar; 

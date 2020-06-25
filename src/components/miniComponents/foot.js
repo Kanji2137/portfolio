@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import '../../App.css';
 
-class foot extends Component {
+class Foot extends Component {
     
 
     render() {
@@ -16,4 +15,4 @@ class foot extends Component {
     }
 }
 
-export default foot; 
+export default Foot; 

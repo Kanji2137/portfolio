@@ -1,22 +1,17 @@
 import React, { Component } from 'react';
-import '../../App.css';
+import PropTypes from 'prop-types';
 
-import projectsL  from '../../listOfProjects/MiniListOfProjectsL';
-import projectsR  from '../../listOfProjects/MiniListOfProjectsR';
-
-class listOfProjects extends Component {
-    
-
+class ListOfProjects extends Component {
     render() {
             return (
                 <div className="sizeListOfProjects" id="listOfProj">
                     <div className="containerForLists">
                         <div className="listLeft">
-                            {projectsL.map((project, id) => {
+                            {this.props.projectsL.map((project, id) => {
                                 return (
                                     <div key={id} className="boxMiniProjectR"  id={project.id}> 
                                         <div className="imgToMiniListR">
-                                            <a href={project.link} target="_blank"><img src={project.imgOfProject} className="imgToMiniList2"/></a>
+                                            <a href={project.link} target="_blank"><img src={project.imgOfProject} className="imgToMiniList2"  alt="myWebsite"/></a>
                                         </div>
                                         <div className="textUnderImgList" style={{color:project.color}}>{project.NameOfProject}</div>
                                     </div>
@@ -24,11 +19,11 @@ class listOfProjects extends Component {
                             })}
                         </div>
                         <div className="listRight">
-                            {projectsR.map((project, id) => {
+                            {this.props.projectsR.map((project, id) => {
                                 return (
                                     <div key={id} className="boxMiniProjectR"  id={project.id}> 
                                         <div className="imgToMiniListR">
-                                            <img src={project.imgOfProject} className="imgToMiniList2"/>
+                                        <a href={project.link} target="_blank"><img src={project.imgOfProject} className="imgToMiniList2"  alt="portfolio"/></a>
                                         </div>
                                         <div className="textUnderImgList" style={{color:project.color}}>{project.NameOfProject}</div>
                                     </div>
@@ -41,4 +36,9 @@ class listOfProjects extends Component {
     }
 }
 
-export default listOfProjects; 
+ListOfProjects.propTypes = {
+    projectsL: PropTypes.array.isRequired,
+    projectsR: PropTypes.array.isRequired
+};
+
+export default ListOfProjects; 

@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import '../../App.css';
 
 import { FaReact, FaCss3Alt, FaHtml5} from 'react-icons/fa';
 import logoBlenderBlack from '../../img/logoBlender/blender_logo_2Black.png'; 
@@ -9,7 +8,7 @@ import legoGuy from '../../img/GifLegoGuy/legoGuyGif2.gif'
 
 import { Link } from "react-scroll";
 
-class projectsMini extends Component {
+class ProjectsMini extends Component {
 
     render() {
         return (
@@ -24,7 +23,6 @@ class projectsMini extends Component {
                     
                     <div className="divConProjMiniChild">
                     <div className="part">
-                        {/* <img src={bananaFront} className="imgBananMiniCont"/> */}
                         <div className="iconParent">
                             <Link
                             className="arrowChild"
@@ -35,7 +33,6 @@ class projectsMini extends Component {
                             offset={0}
                             duration= {700}
                             ><FaReact className="icons"/></Link>
-                            {/* <div className="textUnderIcon">React</div> */}
                         </div>
 
                         <div className="iconParent2">
@@ -95,4 +92,4 @@ class projectsMini extends Component {
     }
 }
 
-export default projectsMini; 
+export default ProjectsMini; 
