@@ -2,103 +2,102 @@
     height: calc(100% - 120px);
 }
   
-  .homeImgAbsolute{
-      position: absolute;
-      height: 400px;
-      margin-top: 150px;
-      left: 0; 
-      right: 0; 
-      margin-left: auto; 
-      margin-right: auto;
-      opacity: 1;
-  }
-  .homeImg{
-      position: absolute;
-      height: 400px;
-      margin-top: 150px;
-      left: 0; 
-      right: 0; 
-      margin-left: auto; 
-      margin-right: auto;
-      opacity: 0;
-      transition: 0.2s;
-  }
+.homeImgAbsolute{
+    position: absolute;
+    height: 400px;
+    top: 20%;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto;
+    opacity: 1;
+}
+.homeImg{
+    position: absolute;
+    height: 400px;
+    top: 20%;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto;
+    opacity: 0;
+    transition: 0.2s;
+}
+
+.div1{
+    position: absolute;
+    z-index: 3;
+    width: 25%;
+    height: 830px;
+    margin-left: 0%;
+    background-color: blue;
+    transition: all 1s ease-in-out;
+    opacity: 0;
+}
+.div1:hover + img{
+    opacity: 1;
+}
   
-  .div1{
-      position: absolute;
-      z-index: 3;
-      width: 25%;
-      height: 830px;
-      margin-left: 0%;
-      background-color: blue;
-      transition: all 1s ease-in-out;
-      opacity: 0;
-  }
-  .div1:hover + img{
-      opacity: 1;
-  }
-  
-  .div2{
-      position: absolute;
-      z-index: 3;
-      width: 25%;
-      height: 830px;
-      margin-left: 25%;
-      background-color: orange;
-      transition: all 1s ease-in-out;
-      opacity: 0;
-  }
-  .div2:hover + img{
-      opacity: 1;
-  }
-  
-  .div3{
-      position: absolute;
-      z-index: 3;
-      /* float: right; */
-      width: 25%;
-      height: 830px;
-      margin-left: 50%;
-      background-color: orange;
-      transition: all 1s ease-in-out;
-      opacity: 0;
-  }
-  .div3:hover + img{
-      opacity: 1;
-  }
-  
-  .div4{
-      position: absolute;
-      z-index: 3;
-      width: 25%;
-      height: 830px;
-      margin-left: 75%;
-      background-color: orange;
-      transition: all 1s ease-in-out;
-      opacity: 0;
-  }
-  .div4:hover + .homeImg{
-      opacity: 1;
-  }
-  
-  .arrowParent{
-      position: absolute;
-      width: 10px;
-      height: 10px;
-      top:790px;
-      left: 0; 
-      right: 25px;
-      margin-left: auto; 
-      margin-right: auto;
-  }
-  .arrowParent:hover + img{
-      opacity: 1;
-  }
-  
-  .arrowChild{
-      position: absolute;
-      z-index: 3;
-      font-size: 50px;
+.div2{
+    position: absolute;
+    z-index: 3;
+    width: 25%;
+    height: 830px;
+    margin-left: 25%;
+    background-color: orange;
+    transition: all 1s ease-in-out;
+    opacity: 0;
+}
+.div2:hover + img{
+    opacity: 1;
+}
+
+.div3{
+    position: absolute;
+    z-index: 3;
+    width: 25%;
+    height: 830px;
+    margin-left: 50%;
+    background-color: orange;
+    transition: all 1s ease-in-out;
+    opacity: 0;
+}
+.div3:hover + img{
+    opacity: 1;
+}
+
+.div4{
+    position: absolute;
+    z-index: 3;
+    width: 25%;
+    height: 830px;
+    margin-left: 75%;
+    background-color: orange;
+    transition: all 1s ease-in-out;
+    opacity: 0;
+}
+.div4:hover + .homeImg{
+    opacity: 1;
+}
+
+.arrowParent{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top:790px;
+    left: 0; 
+    right: 25px;
+    margin-left: auto; 
+    margin-right: auto;
+}
+.arrowParent:hover + img{
+    opacity: 1;
+}
+
+.arrowChild{
+    position: absolute;
+    z-index: 3;
+    font-size: 50px;
 }
 
 @media only screen and (max-width: 530px){
@@ -110,6 +109,14 @@
 @media only screen and (max-height: 860px) {
     .face {
         height: 740px;
+    }
+}
+@media only screen and (max-height: 600px) {
+    .homeImgAbsolute{
+        top: 120px;
+    }
+    .homeImg{
+        top: 120px;
     }
 }
 
