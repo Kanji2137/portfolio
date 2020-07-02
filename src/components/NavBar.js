@@ -14,12 +14,11 @@ import {
   import projectsL  from '../data/MiniListOfProjectsL';
   import projectsR  from '../data/MiniListOfProjectsR';
 class NavBar extends Component {
-
     render() {
       return (
         <Router>
             <div>
-                <div className="indexowanie">
+                <div>
                     <Headroom style={{backgroundColor: "#fff"}}>
                         <div className="bar" >
                             <nav>
