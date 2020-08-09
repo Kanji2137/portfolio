@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import Avatar from './miniComponents/Avatar'
 import ProjectsMini from './miniComponents/ProjectsMini'
 import ListOfProjects from './miniComponents/ListOfProjects'
-import Foot from './miniComponents/Foot';
+import Foot from './miniComponents/Foot'
 
 class Home extends Component {
     render(){
